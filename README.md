@@ -11,6 +11,15 @@ A Python-based tool for detecting phishing content in emails. This tool provides
 - Python 3
 - `nltk` and `tkinter` libraries
 
+### Requirements File (`requirements.txt`)
+The `requirements.txt` file should contain the following:
+
+```
+nltk
+```
+
+Note: `tkinter` is part of the standard library for Python, so it doesn't need to be installed separately through `pip`.
+
 ## Installation
 
 1. Clone the project or download the files to your local machine.
@@ -48,6 +57,88 @@ A Python-based tool for detecting phishing content in emails. This tool provides
   ```
 
 - **Expected Output**: Phishing Alert: Suspicious content detected!
+
+## More Email Samples
+
+### Phishing Emails
+1. **Urgent Action Required**:
+   ```
+   Dear Customer,
+
+   Your account has been suspended due to suspicious activity. Please verify your account information immediately by clicking the link below. Failure to do so will result in permanent suspension of your account.
+
+   Click here to verify your account.
+   
+   Sincerely,
+   Customer Support
+   ```
+
+2. **Account Compromised**:
+   ```
+   Hello,
+
+   We noticed unusual activity in your account. To secure your account, please log in to verify your information. Follow the link below and update your security details.
+
+   [Login to your account](#)
+
+   Regards,
+   Security Team
+   ```
+
+3. **Payment Needed**:
+   ```
+   Dear User,
+
+   Your payment method was declined. Please update your billing information to avoid service interruption. Click the link below to update your information.
+
+   Update Billing Information Now
+   
+   Best regards,
+   Accounts Department
+   ```
+
+4. **Tax Refund Scam**:
+   ```
+   Dear Taxpayer,
+
+   We have calculated that you are eligible for a tax refund of $500. To receive your refund, please provide your account information by clicking on the link below.
+
+   Claim My Refund
+
+   Thank you,
+   The Tax Department
+   ```
+
+### Legitimate Emails
+1. **Newsletter Update**:
+   ```
+   Hi there,
+
+   Here is your weekly newsletter! We’ve got exciting updates on our new products and upcoming events. Thank you for being a part of our community.
+
+   Best,
+   The Newsletter Team
+   ```
+
+2. **Order Confirmation**:
+   ```
+   Hello,
+
+   Thank you for your purchase! Your order #12345 has been confirmed and will be shipped soon. You can track your order status through your account.
+
+   Best regards,
+   Customer Service
+   ```
+
+3. **Account Welcome Email**:
+   ```
+   Hi [User's Name],
+
+   Welcome to [Company Name]! We’re excited to have you on board. You can log in to your account to start exploring our services. If you have any questions, feel free to reach out.
+
+   Best,
+   Support Team
+   ```
 
 ## File Structure
 
